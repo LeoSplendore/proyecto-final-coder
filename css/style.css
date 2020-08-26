@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+#fold-slide {
+  top: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url(../img/a-drink-in-a-glass-with-green-leaf-.jpg);
+  background-position: top, right;
+  background-size: cover; }
+
+.letrasSlider h1 {
+  color: #333;
+  padding-left: 7%; }
+
+.letrasSlider p {
+  color: #fa7d09;
+  padding-left: 7%; }
+
+@media (min-width: 768px) {
+  .letrasSlider h1 {
+    color: white;
+    padding-left: 0;
+    font-size: 100px; }
+  .letrasSlider p {
+    color: #fa7d09;
+    padding-left: 0;
+    font-size: 80px; }
+  #fold-slide {
+    top: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(../img/gin-tonic.jpg);
+    background-position: top, right;
+    background-size: cover; } }
+
+.BotonArriba {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 30%;
+  z-index: 80; }
+
+.BotonArriba a {
+  text-decoration: none; }
+
+.BotonArriba .Arrow {
+  color: black; }
+
+.boton-ver-mas {
+  border: 2px solid tomato;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto; }
+
+.boton-ver-mas h4 {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: tomato; }
+
+.boton-ver-mas a {
+  text-decoration: none; }
+
+.boton-ver-mas:hover {
+  transform: scale(1.2); }
+
+.botonComprar {
+  background: tomato;
+  display: block;
+  color: white;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  width: 50%;
+  margin: auto; }
+
+.botonComprar a {
+  text-decoration: none; }
+
+.botonComprar:hover {
+  transform: scale(1.2); }
+
+.boton-ir-a-comprar h4, #seccion-recetas .articulo-cocktail .container-receta-img a h4 {
+  color: tomato; }
+
+.boton-ir-a-comprar a, #seccion-recetas .articulo-cocktail .container-receta-img a a {
+  text-decoration: none; }
+
+.boton-ir-a-comprar, #seccion-recetas .articulo-cocktail .container-receta-img a {
+  border: 2px solid tomato;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto; }
+
+.boton-ir-a-comprar:hover, #seccion-recetas .articulo-cocktail .container-receta-img a:hover {
+  transform: scale(1.2);
+  text-decoration: none; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  color: #000;
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: 1px; }
+
+h2 {
+  font-size: 25px;
+  color: #333;
+  font-weight: 500px;
+  padding-top: 10px; }
+
+h3 {
+  font-weight: 300px;
+  font-size: 20px; }
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 14px; }
+
+h5 {
+  font-size: 13px;
+  font-weight: 300; }
+
+p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 12px;
+  color: #727171;
+  line-height: 1,5px;
+  letter-spacing: 0,7px; }
+
+.logotipo {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700; }
+
+.banner-covid h3 {
+  padding-top: 5%;
+  color: #ffff00; }
+
+.banner-covid h4 {
+  color: whitesmoke; }
+
+#AboutUs {
+  position: relative; }
+
+.AboutUs__content {
+  position: absolute;
+  top: 33%;
+  right: 0;
+  left: 0;
+  text-align: center;
+  width: 60%;
+  margin: auto; }
+
+.AboutUs__content h3 {
+  font-size: 10px;
+  color: white;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10; }
+
+.AboutUs__contenedorDeVideo {
+  z-index: -10;
+  width: 100%;
+  height: calc(100vw * 0.5271);
+  overflow: hidden; }
+
+.lemonTonic {
+  width: 100vw; }
+
+@media (min-width: 768px) {
+  .AboutUs__content {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    width: 60%;
+    margin: auto; }
+  .AboutUs__content h3 {
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10; }
+  .AboutUs__contenedorDeVideo {
+    z-index: -10;
+    width: 100%;
+    height: calc(100vw * 0.5271);
+    overflow: hidden; } }
+
+#musica {
+  margin-top: 30px; }
+
+#musica h4 {
+  font-size: 16px;
+  color: #03c403; }
+
+#musica h5 {
+  font-size: 12px; }
+
+/* maquetado productos */
+.containerProductos {
+  text-align: center; }
+
+.containerProductos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+.containerProductos_columna--modificador {
+  background: #e4e4e4;
+  column-count: #3333;
+  border: 1px solid #3333;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888;
+  width: 20%; }
+
+.precio {
+  font-size: 40px;
+  color: #fa7d09; }
+
+@keyframes precio-animado {
+  0% {
+    opacity: 0;
+    transform: rotateZ(0deg); }
+  100% {
+    opacity: 1;
+    transform: rotateZ(360deg); } }
+
+.precio:hover {
+  animation-duration: 1s;
+  animation-name: precio-animado; }
+
+/* el footer */
+footer {
+  width: 100%;
+  background: #222831; }
+
+.contacto-redes {
+  padding: 20px; }
+
+.contacto-redes p {
+  font-size: 14px;
+  color: #fa7d09; }
+
+.contacto-redes li, a {
+  display: inline-flex;
+  text-decoration: none;
+  list-style: none; }
+
+.faqsPie h6 {
+  font-size: 14px;
+  color: #fa7d09; }
+
+.faqsPie a {
+  text-decoration: none; }
+
+.faqsPie:hover {
+  transform: scale(1.2); }
+
+#seccion-recetas {
+  background-color: #dbdbdb;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 10px;
+  color: white;
+  text-align: center; }
+  #seccion-recetas .articulo-cocktail {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px; }
+    #seccion-recetas .articulo-cocktail .container-receta-img {
+      margin-top: 25px; }
+      #seccion-recetas .articulo-cocktail .container-receta-img h1 {
+        font-size: 35px;
+        color: #333333;
+        margin-bottom: 20px; }
+      #seccion-recetas .articulo-cocktail .container-receta-img h6 {
+        margin-bottom: 0;
+        color: tomato; }
+      #seccion-recetas .articulo-cocktail .container-receta-img a {
+        padding: 4%; }
+      #seccion-recetas .articulo-cocktail .container-receta-img .contenedor-img-receta {
+        padding: 10%; }
+    #seccion-recetas .articulo-cocktail .container-receta-ingredientes h2 {
+      color: #fa7d09; }
+    #seccion-recetas .articulo-cocktail .container-receta-ingredientes ul, #seccion-recetas .articulo-cocktail .container-receta-ingredientes ol {
+      list-style: none;
+      color: #333333; }
+    #seccion-recetas .articulo-cocktail .te-tentaste .pregunta p {
+      padding-top: 3%;
+      color: whitesmoke; }
+    #seccion-recetas .articulo-cocktail .te-tentaste .boton-ir-a-comprar, #seccion-recetas .articulo-cocktail .te-tentaste .container-receta-img a, #seccion-recetas .articulo-cocktail .container-receta-img .te-tentaste a {
+      margin-bottom: 3%; }

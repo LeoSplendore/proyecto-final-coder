@@ -1,0 +1,39 @@
+#fold-slide{
+    top: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(../img/a-drink-in-a-glass-with-green-leaf-.jpg);
+    background-position: top, right;
+    background-size: cover;
+}
+
+.letrasSlider h1{
+    color: #333;
+    padding-left: 7%;
+}
+.letrasSlider p{
+    color: #fa7d09;
+    padding-left: 7%;
+}
+@media (min-width: 768px){
+    .letrasSlider h1{
+        color: white;
+        padding-left: 0;
+        font-size: 100px;
+    }
+    .letrasSlider p{
+        color: #fa7d09;
+        padding-left: 0;
+        font-size: 80px;
+    }
+    #fold-slide{
+        top: 20px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-image: url(../img/gin-tonic.jpg);
+        background-position: top, right;
+        background-size: cover;
+    }
+}

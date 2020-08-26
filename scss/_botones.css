@@ -1,0 +1,63 @@
+.BotonArriba{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 30%;
+    z-index: 80;
+}
+.BotonArriba a{
+    text-decoration: none;
+}
+.BotonArriba .Arrow{
+    color: black;
+}
+.boton-ver-mas{
+    border: 2px solid tomato;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+}
+.boton-ver-mas h4{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: tomato;
+}
+.boton-ver-mas a{
+    text-decoration: none;
+}
+.boton-ver-mas:hover{
+    transform: scale(1.2)
+}
+.botonComprar{
+    background: tomato;
+    display: block;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    width: 50%;
+    margin: auto;
+}
+.botonComprar a{
+    text-decoration: none;
+}
+.botonComprar:hover{
+    transform: scale(1.2)
+}
+
+.boton-ir-a-comprar h4{
+    color: tomato;
+}
+.boton-ir-a-comprar a{
+    text-decoration: none;
+}
+.boton-ir-a-comprar{
+    border: 2px solid tomato;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+}
+.boton-ir-a-comprar:hover{
+    transform: scale(1.2);
+    text-decoration: none;
+}

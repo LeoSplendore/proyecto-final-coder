@@ -1,0 +1,65 @@
+@import "_slider";
+@import "_botones";
+@import "_secciones";
+$backround-sitio: rgb(219, 219, 219);
+
+//esto es la pagina de recetas de tragos//
+#seccion-recetas{ 
+    background-color: $backround-sitio;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 10px;
+    color: white;
+    text-align: center;
+
+        .articulo-cocktail{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 40px;
+
+            .container-receta-img{
+                margin-top: 25px;
+                h1{
+                    font-size: 35px;
+                    color: #333333;
+                    margin-bottom: 20px;
+                }
+                h6{
+                    margin-bottom: 0;
+                    color: tomato;
+                }
+                a{
+                @extend .boton-ir-a-comprar;
+                padding: 4%;
+                }
+                .contenedor-img-receta{
+                    padding: 10%;
+                }
+            }
+            .container-receta-ingredientes{
+                h2{
+                color: #fa7d09;
+                }
+                ul,ol{
+                    list-style: none;
+                    color: #333333;
+                }
+            }
+            .te-tentaste{
+                .pregunta{
+                    p{
+                        padding-top: 3%;
+                        color: whitesmoke;
+                    }
+                }
+                .boton-ir-a-comprar{
+                    margin-bottom: 3%;
+                }
+            }
+            
+        }
+    }
