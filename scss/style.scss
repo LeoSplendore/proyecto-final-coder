@@ -6,10 +6,22 @@ $backround-sitio: rgb(219, 219, 219);
 //esto es la pagina de recetas de tragos//
 #seccion-recetas{ 
     background-color: $backround-sitio;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 10px;
     color: white;
+    text-align: center;
 
         .articulo-cocktail{
-           .container-receta-img{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 40px;
+
+            .container-receta-img{
                 margin-top: 25px;
                 h1{
                     font-size: 35px;
