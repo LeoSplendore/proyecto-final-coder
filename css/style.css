@@ -279,10 +279,6 @@ footer {
   display: grid;
   color: white; }
   #seccion-recetas .articulo-cocktail {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
     margin-bottom: 40px; }
     #seccion-recetas .articulo-cocktail .container-receta-img {
       margin-top: 25px; }

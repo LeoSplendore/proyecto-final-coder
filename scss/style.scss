@@ -10,13 +10,10 @@ $backround-sitio: rgb(219, 219, 219);
     color: white;
 
         .articulo-cocktail{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center;
+      
         margin-bottom: 40px;
 
-            .container-receta-img{
+           .container-receta-img{
                 margin-top: 25px;
                 h1{
                     font-size: 35px;
