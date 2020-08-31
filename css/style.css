@@ -276,7 +276,6 @@ footer {
 
 #seccion-recetas {
   background-color: #dbdbdb;
-  display: grid;
   color: white; }
   #seccion-recetas .articulo-cocktail {
     margin-bottom: 40px; }
