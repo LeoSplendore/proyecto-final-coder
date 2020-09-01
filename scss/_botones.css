@@ -52,6 +52,7 @@
     text-decoration: none;
 }
 .boton-ir-a-comprar{
+    margin-bottom: 20px;
     border: 2px solid tomato;
     border-radius: 10px;
     width: 30%;
