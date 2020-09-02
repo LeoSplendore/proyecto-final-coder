@@ -9,7 +9,7 @@ $backround-sitio: rgb(219, 219, 219);
     text-align: center;
 
         .articulo-cocktail{
-            padding-top: 40px;
+            padding-top: 50px;
             .container-receta-img{
                 h1{
                     font-size: 35px;
@@ -22,7 +22,7 @@ $backround-sitio: rgb(219, 219, 219);
                 }
                 a{
                 @extend .boton-ir-a-comprar;
-                padding: 5%;
+                padding: 3%;
                 }
                 .contenedor-img-receta{
                     padding: 10%;
