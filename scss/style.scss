@@ -22,13 +22,14 @@ $backround-sitio: rgb(219, 219, 219);
                 }
                 a{
                 @extend .boton-ir-a-comprar;
-                padding: 3%;
+                padding: 2%;
                 }
                 .contenedor-img-receta{
                     padding: 10%;
                 }
             }
             .container-receta-ingredientes{
+                margin-bottom: 40px;
                 h2{
                 color: #fa7d09;
                 }
@@ -36,16 +37,16 @@ $backround-sitio: rgb(219, 219, 219);
                     list-style: none;
                     color: #333333;
                 }
+
             }
             .te-tentaste{
+                height: 8rem;
+                margin-bottom: 50px;
                 .pregunta{
                     p{
-                        padding-top: 3%;
+                        padding-top: 5%;
                         color: whitesmoke;
                     }
-                }
-                .boton-ir-a-comprar{
-                    margin-bottom: 3%;
                 }
             }
             

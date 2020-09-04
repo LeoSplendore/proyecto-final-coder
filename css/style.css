@@ -288,16 +288,19 @@ footer {
       margin-bottom: 0;
       color: tomato; }
     #seccion-recetas .articulo-cocktail .container-receta-img a {
-      padding: 3%; }
+      padding: 2%; }
     #seccion-recetas .articulo-cocktail .container-receta-img .contenedor-img-receta {
       padding: 10%; }
-    #seccion-recetas .articulo-cocktail .container-receta-ingredientes h2 {
-      color: #fa7d09; }
-    #seccion-recetas .articulo-cocktail .container-receta-ingredientes ul, #seccion-recetas .articulo-cocktail .container-receta-ingredientes ol {
-      list-style: none;
-      color: #333333; }
-    #seccion-recetas .articulo-cocktail .te-tentaste .pregunta p {
-      padding-top: 3%;
-      color: whitesmoke; }
-    #seccion-recetas .articulo-cocktail .te-tentaste .boton-ir-a-comprar, #seccion-recetas .articulo-cocktail .te-tentaste .container-receta-img a, #seccion-recetas .articulo-cocktail .container-receta-img .te-tentaste a {
-      margin-bottom: 3%; }
+    #seccion-recetas .articulo-cocktail .container-receta-ingredientes {
+      margin-bottom: 40px; }
+      #seccion-recetas .articulo-cocktail .container-receta-ingredientes h2 {
+        color: #fa7d09; }
+      #seccion-recetas .articulo-cocktail .container-receta-ingredientes ul, #seccion-recetas .articulo-cocktail .container-receta-ingredientes ol {
+        list-style: none;
+        color: #333333; }
+    #seccion-recetas .articulo-cocktail .te-tentaste {
+      height: 8rem;
+      margin-bottom: 50px; }
+      #seccion-recetas .articulo-cocktail .te-tentaste .pregunta p {
+        padding-top: 5%;
+        color: whitesmoke; }
