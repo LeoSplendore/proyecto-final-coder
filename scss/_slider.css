@@ -7,7 +7,9 @@
     background-position: top, right;
     background-size: cover;
 }
-
+.letrasSlider{
+    padding-top: 30%;
+}
 .letrasSlider h1{
     color: #333;
     padding-left: 7%;
@@ -17,6 +19,9 @@
     padding-left: 7%;
 }
 @media (min-width: 768px){
+    .letrasSlider{
+        padding-top: 10%;
+    }
     .letrasSlider h1{
         color: white;
         padding-left: 0;
