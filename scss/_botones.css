@@ -37,6 +37,7 @@
     margin-bottom: 5px;
     width: 50%;
     margin: auto;
+    font-size: 10px;
 }
 .botonComprar a{
     text-decoration: none;
@@ -44,7 +45,11 @@
 .botonComprar:hover{
     transform: scale(1.2)
 }
-
+@media (min-width: 768px){
+    .botonComprar{
+     font-size: 16px;
+    }
+}
 .boton-ir-a-comprar h4{
     color: tomato;
 }

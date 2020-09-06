@@ -77,13 +77,18 @@
   border-radius: 3px;
   margin-bottom: 5px;
   width: 50%;
-  margin: auto; }
+  margin: auto;
+  font-size: 10px; }
 
 .botonComprar a {
   text-decoration: none; }
 
 .botonComprar:hover {
   transform: scale(1.2); }
+
+@media (min-width: 768px) {
+  .botonComprar {
+    font-size: 16px; } }
 
 .boton-ir-a-comprar h4, #seccion-recetas .articulo-cocktail .container-receta-img a h4 {
   color: tomato; }
@@ -220,14 +225,18 @@ p {
 .containerProductos {
   text-align: center; }
 
+.containerProductos h2 {
+  font-size: 15px; }
+
 .containerProductos {
+  background: #e4e4e4;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center; }
 
 .containerProductos_columna--modificador {
-  background: #e4e4e4;
+  background: white;
   column-count: #3333;
   border: 1px solid #3333;
   margin: 10px;
@@ -237,7 +246,7 @@ p {
   width: 20%; }
 
 .precio {
-  font-size: 40px;
+  font-size: 20px;
   color: #fa7d09; }
 
 @keyframes precio-animado {
