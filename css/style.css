@@ -107,7 +107,11 @@
   text-decoration: none; }
 
 .btn-redes {
-  color: #fa7d09; }
+  color: white; }
+
+.btn-redes:hover {
+  text-decoration: none;
+  transform: scale(2); }
 
 html {
   box-sizing: border-box; }
@@ -274,16 +278,22 @@ footer {
 
 .contacto-redes p {
   font-size: 14px;
-  color: #fa7d09; }
+  color: white; }
 
 .contacto-redes li, a {
   display: inline-flex;
   text-decoration: none;
   list-style: none; }
 
+.redes-sociales li {
+  padding-left: 1rem; }
+
+.redes-sociales a {
+  text-decoration: none; }
+
 .faqsPie h6 {
   font-size: 14px;
-  color: #fa7d09; }
+  color: white; }
 
 .faqsPie a {
   text-decoration: none; }

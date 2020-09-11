@@ -67,5 +67,9 @@
     text-decoration: none;
 }
 .btn-redes{
-    color: #fa7d09;
+    color: white;
+}
+.btn-redes:hover{
+    text-decoration: none;
+    transform: scale(2);
 }
