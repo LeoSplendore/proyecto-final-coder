@@ -249,17 +249,17 @@ p {
   font-size: 20px;
   color: #fa7d09; }
 
-@keyframes precio-animado {
+@keyframes img-animado {
   0% {
     opacity: 0;
-    transform: rotateZ(0deg); }
+    transform: rotatey(0deg); }
   100% {
     opacity: 1;
-    transform: rotateZ(360deg); } }
+    transform: rotatey(180deg); } }
 
-.precio:hover {
-  animation-duration: 1s;
-  animation-name: precio-animado; }
+.img-rotate-Y:hover {
+  animation-duration: 2s;
+  animation-name: img-animado; }
 
 /* el footer */
 footer {
