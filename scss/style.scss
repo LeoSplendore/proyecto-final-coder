@@ -52,3 +52,16 @@ $backround-sitio: rgb(219, 219, 219);
             
         }
     }
+//esto es la pagina de peguntas frecuentes//
+@media (min-width: 768px){
+    main{
+        .titleFaqs{
+            padding-top: 3rem;
+        }
+        .preguntas-frecuentes{
+            padding-top: 3rem;
+            width: 70%;
+            margin: auto;
+        }
+    }
+}

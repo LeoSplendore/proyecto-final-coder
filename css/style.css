@@ -292,7 +292,11 @@ footer {
 .redes-sociales a {
   text-decoration: none; }
 
+.contacto-redes_18 p {
+  font-size: 10px; }
+
 .faqsPie h6 {
+  text-transform: initial;
   font-size: 14px;
   color: white; }
 
@@ -304,15 +308,14 @@ footer {
   transform: scale(1.2); }
 
 /* carrito en construccion */
-.cart-h1 {
-  width: 100%;
-  margin: auto; }
-
 .en-construccion {
   width: 100%;
   margin: auto;
   height: calc(100vw * 0.665);
   overflow: hidden; }
+
+.en-construccion a:hover {
+  text-decoration: none; }
 
 .img-construction {
   width: 100vw; }
@@ -346,3 +349,11 @@ footer {
       #seccion-recetas .articulo-cocktail .te-tentaste .pregunta p {
         padding-top: 5%;
         color: whitesmoke; }
+
+@media (min-width: 768px) {
+  main .titleFaqs {
+    padding-top: 3rem; }
+  main .preguntas-frecuentes {
+    padding-top: 3rem;
+    width: 70%;
+    margin: auto; } }

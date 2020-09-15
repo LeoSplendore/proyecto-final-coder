@@ -193,7 +193,11 @@ footer{
 .redes-sociales a{
     text-decoration: none;
 }
+.contacto-redes_18 p{
+    font-size: 10px;
+}
 .faqsPie h6{
+    text-transform: initial;
     font-size: 14px;
     color: white;
 }
@@ -210,6 +214,9 @@ footer{
     margin: auto;
     height: calc(100vw * 0.665);
     overflow: hidden;
+}
+.en-construccion a:hover{
+    text-decoration: none;
 }
 .img-construction{
     width: 100vw;
