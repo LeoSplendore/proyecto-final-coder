@@ -204,3 +204,13 @@ footer{
     text-decoration: none;
     transform: scale(1.2);
 }
+/* carrito en construccion */
+.en-construccion{
+    width: 100%;
+    margin: auto;
+    height: calc(100vw * 0.665);
+    overflow: hidden;
+}
+.img-construction{
+    width: 100vw;
+}

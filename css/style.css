@@ -303,6 +303,20 @@ footer {
   text-decoration: none;
   transform: scale(1.2); }
 
+/* carrito en construccion */
+.cart-h1 {
+  width: 100%;
+  margin: auto; }
+
+.en-construccion {
+  width: 100%;
+  margin: auto;
+  height: calc(100vw * 0.665);
+  overflow: hidden; }
+
+.img-construction {
+  width: 100vw; }
+
 #seccion-recetas {
   background-color: #dbdbdb;
   text-align: center; }
